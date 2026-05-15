@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Synkopy";
     src: url('fonts/Synkopy-Regular.ttf') format('truetype');
-    src: url('fonts/Synkopy-Regular.woff') format('woff'), 
-    url('fonts/Synkopy-Regular.eot') format('embedded-opentype');
+    src: url('/fonts/Synkopy-Regular.woff') format('woff'), 
+    url('/fonts/Synkopy-Regular.eot') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -102,57 +102,57 @@ a {
 
 .aboutbutton {
     /* background-color: red; */
-    background-image: url(/assets/homepage/BUTTONS/OPEN/about.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/OPEN/about.png);
 }
 .aboutbutton:active {
-    background-image: url(/assets/homepage/BUTTONS/CLOSED/about.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/CLOSED/about.png);
 }
 
 .comicbutton {
-    background-image: url(/assets/homepage/BUTTONS/OPEN/comics.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/OPEN/comics.png);
 }
 .comicbutton:active {
-    background-image: url(/assets/homepage/BUTTONS/CLOSED/comics.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/CLOSED/comics.png);
 }
 
 .commissionbutton {
-    background-image: url(/assets/homepage/BUTTONS/OPEN/commission.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/OPEN/commission.png);
 }
 .commissionbutton:active {
-    background-image: url(/assets/homepage/BUTTONS/CLOSED/commission.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/CLOSED/commission.png);
 }
 
 .contactbutton {
-    background-image: url(/assets/homepage/BUTTONS/OPEN/contact.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/OPEN/contact.png);
 }
 .contactbutton:active {
-    background-image: url(/assets/homepage/BUTTONS/CLOSED/contact.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/CLOSED/contact.png);
 }
 
 .faqbutton {
-    background-image: url(/assets/homepage/BUTTONS/OPEN/faq.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/OPEN/faq.png);
 }
 .faqbutton:active {
-    background-image: url(/assets/homepage/BUTTONS/CLOSED/faq.png);
+    background-image: url(ekezdu.art/assets/homepage/BUTTONS/CLOSED/faq.png);
 }
 
 .guestbookbutton {
-        background-image: url(/assets/homepage/BUTTONS/OPEN/guestbook.png);
+        background-image: url(ekezdu.art/assets/homepage/BUTTONS/OPEN/guestbook.png);
 }
 .guestbookbutton:active {
-        background-image: url(/assets/homepage/BUTTONS/CLOSED/guestbook.png);
+        background-image: url(ekezdu.art/assets/homepage/BUTTONS/CLOSED/guestbook.png);
 }
 
 .portfoliobutton {
-        background-image: url(/assets/homepage/BUTTONS/OPEN/portfolio.png);
+        background-image: url(ekezdu.art/assets/homepage/BUTTONS/OPEN/portfolio.png);
 }
 .portfoliobutton:active {
-        background-image: url(/assets/homepage/BUTTONS/CLOSED/portfolio.png);
+        background-image: url(ekezdu.art/assets/homepage/BUTTONS/CLOSED/portfolio.png);
 }
 
 .socialsbutton {
-        background-image: url(/assets/homepage/BUTTONS/OPEN/socials.png);
+        background-image: url(ekezdu.art/assets/homepage/BUTTONS/OPEN/socials.png);
 }
 .socialsbutton:active {
-        background-image: url(/assets/homepage/BUTTONS/CLOSED/socials.png);
+        background-image: url(ekezdu.art/assets/homepage/BUTTONS/CLOSED/socials.png);
 }
