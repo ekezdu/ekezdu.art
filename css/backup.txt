@@ -1,0 +1,108 @@
+text file
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKEZDU</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+
+
+<body>
+
+    <div class="content">
+        <div class="mainbox">
+            
+            <div class="links">
+                <img src="/ekezdu.art/assets/homepage/greenrect_large_noshadow.png">
+            </div>
+            <div class="linkschild"></div>
+
+
+        </div>
+        <div class="logo">
+            <img src="/ekezdu.art/assets/homepage/LOGOS/main_logo/ekezdu_mainlogo_fullsize.png" >
+        </div>
+        <div class="lilguy">
+            <img src="/ekezdu.art/assets/homepage/mascot_homepage.png">
+        </div>
+
+        </div>
+    </div>
+        
+
+
+
+
+
+
+
+
+
+
+</body>
+    
+</html>
+
+
+@font-face {
+    font-family: "Synkopy";
+    src: url('ekezdu.art/fonts/Synkopy-Regular.ttf') format('truetype');
+    src: url('ekezdu.art/fonts/Synkopy-Regular.woff') format('woff'), 
+    url('ekezdu.art/fonts/Synkopy-Regular.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* font */
+
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e2ebc7;
+    justify-content: center;
+    position: relative;
+    right: 20%;
+    margin: 30px;
+}
+
+.content {
+    display: flex; 
+    align-items: center;
+    position: relative;
+}
+
+.mainbox {
+    display: flex;
+    order: 1;
+    font-family: "Synkopy";
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.lilguy {
+    border-radius: 10px;
+    position: relative;
+    left: 10%; 
+    bottom: 5%;
+    max-height: 90%;
+
+}
+
+
+.logo {
+    position:relative;
+    left: 60%;
+    bottom: 38%;  
+}
+
+
+ img {
+  max-width: 100%;
+  max-height: 100%;
+}
