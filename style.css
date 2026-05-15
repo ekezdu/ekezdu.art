@@ -102,7 +102,7 @@ a {
 
 .aboutbutton {
     /* background-color: red; */
-    background-image: url(../assets/homepage/BUTTONS/OPEN/about.png);
+    background-image: url(/assets/homepage/BUTTONS/OPEN/about.png);
 }
 .aboutbutton:active {
     background-image: url(/assets/homepage/BUTTONS/CLOSED/about.png);
@@ -123,7 +123,7 @@ a {
 }
 
 .contactbutton {
-    background-image: url(//assets/homepage/BUTTONS/OPEN/contact.png);
+    background-image: url(/assets/homepage/BUTTONS/OPEN/contact.png);
 }
 .contactbutton:active {
     background-image: url(/assets/homepage/BUTTONS/CLOSED/contact.png);
