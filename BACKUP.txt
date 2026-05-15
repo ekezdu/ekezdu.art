@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css" type="text/css">
+</head>
+<body>
+<div class="content">
+<!-- TEST FOR UPDATE -->
+    <div class="mascot">
+        <img src="assets/homepage/mascot_homepage.png">
+    </div>
+  <div class="largecontainer">
+        <div class="logo">
+            <img src="assets/homepage/LOGOS/main_logo/ekezdu_mainlogo_fullsize.png">
+        </div>
+
+    <div class="container">
+        <a href="https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/" class="button aboutbutton"></a>
+        <a href="https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/" class="button comicbutton"></a>
+        <a href="https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/" class="button commissionbutton"></a>
+        <a href="https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/" class="button contactbutton"></a>
+        <a href="https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/" class="button faqbutton"></a>
+        <a href="https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/" class="button guestbookbutton"></a>
+        <a href="https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/" class="button portfoliobutton"></a>
+        <a href="https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/" class="button socialsbutton"></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+@font-face {
+    font-family: "Synkopy";
+    src: url('ekezdu.art/fonts/Synkopy-Regular.ttf') format('truetype');
+    src: url('ekezdu.art/fonts/Synkopy-Regular.woff') format('woff'), 
+    url('ekezdu.art/fonts/Synkopy-Regular.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #e7f6bf;
+    display: flex;
+    align-items: center;
+}
+
+.content { 
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    margin-top: 7vh;
+    margin-left: 3%;
+}
+
+.largecontainer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/ekezdu.art/assets/homepage/greenrect_large_noshadow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-clip: border-box;
+    min-width: 100vh;
+    min-height: 50vh;
+    height: auto;
+    width: auto;
+    align-items: center;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/ekezdu.art/assets/homepage/greenrect_gradient_noshadow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 60px;
+    padding-top: -30px;
+    margin-top: 80px;
+    margin-right: -10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.mascot {
+    width: 200px;
+    height: 570px;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    /* background-color: pink; */
+    position: relative;
+    float: top;
+    width: 700px;
+    height: 170px;
+    top: -20px;
+    margin: -8%;
+}
+
+img {
+    height: 100%;
+}
+/* BUTTONS */
+
+
+a {
+    bottom: 5%;
+    background-color: transparent;
+    width: 15%;
+    height: 10%;
+    padding: 30px;
+    margin: 20px;
+    margin-top: -15px;
+    min-width: 50px;
+    float: right; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+
+.aboutbutton {
+    /* background-color: red; */
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/OPEN/about.png);
+}
+.aboutbutton:active {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/CLOSED/about.png);
+}
+
+.comicbutton {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/OPEN/comics.png);
+}
+.comicbutton:active {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/CLOSED/comics.png);
+}
+
+.commissionbutton {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/OPEN/commission.png);
+}
+.commissionbutton:active {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/CLOSED/commission.png);
+}
+
+.contactbutton {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/OPEN/contact.png);
+}
+.contactbutton:active {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/CLOSED/contact.png);
+}
+
+.faqbutton {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/OPEN/faq.png);
+}
+.faqbutton:active {
+    background-image: url(/ekezdu.art/assets/homepage/BUTTONS/CLOSED/faq.png);
+}
+
+.guestbookbutton {
+        background-image: url(/ekezdu.art/assets/homepage/BUTTONS/OPEN/guestbook.png);
+}
+.guestbookbutton:active {
+        background-image: url(/ekezdu.art/assets/homepage/BUTTONS/CLOSED/guestbook.png);
+}
+
+.portfoliobutton {
+        background-image: url(/ekezdu.art/assets/homepage/BUTTONS/OPEN/portfolio.png);
+}
+.portfoliobutton:active {
+        background-image: url(/ekezdu.art/assets/homepage/BUTTONS/CLOSED/portfolio.png);
+}
+
+.socialsbutton {
+        background-image: url(/ekezdu.art/assets/homepage/BUTTONS/OPEN/socials.png);
+}
+.socialsbutton:active {
+        background-image: url(/ekezdu.art/assets/homepage/BUTTONS/CLOSED/socials.png);
+}
+
+@media only screen and (orientation: portrait) {
+    .mascot {display: none;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
